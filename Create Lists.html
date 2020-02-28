@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Lists</title>
+</head>
+<body>
+<h1>Lists</h1>
+
+<!-- There are two main types of lists unordered list and ordered list-->
+<!-- Unordered means its no in any particular order while ordered means it's in order-->
+
+<!-- Example of unordered list-->
+<!-- ul tag means it is an unordered list-->
+<!-- li tag means it is an element which represents one bullet point of the list-->
+
+<ul>
+    <li>Dark Souls 2</li>
+    <li>Demon Souls</li>
+    <li>Dark Souls 3</li>
+    <li>Dark Souls</li>
+    <li>Bloodborne</li>
+    <li>Sekiro</li>
+</ul>
+
+<!-- Example of ordered list-->
+<!-- ol tag means its an ordered list-->
+
+<ol>
+    <li>Demon Souls</li>
+    <li>Dark Souls</li>
+    <li>Dark Souls 2</li>
+    <li>Bloodborne</li>
+    <li>Dark Souls 3</li>
+    <li>Sekiro</li>
+</ol>
+
+<!-- Forms are a good way to have different things that need to be submitted-->
+<!-- Example would be facebook, things to put it would be log in credentials and then you click submit to go to home page-->
+<!-- Forms deal alot with the server side but since this is html we will not go into too much detail about it-->
+<!-- action is pretty much what web address you want to put in-->
+<!-- "/" means it's the index page aka the home page-->
+<!-- get method means in a sense it takes in login information/request parameter-->
+<!-- post method means in a sense it takes in a huge body of text information-->
+<!-- div tag is a better way to organize things-->
+<!-- label tag is what title you want the label to be, like if someone wants to put in name information then the label is name-->
+<!-- input tag is the area where the user can type in the information they need to type in-->
+<!-- name label means it looks for a name-->
+<!-- email label means it looks for a email address-->
+<!-- input type submit is where you would make a submit button to send information-->
+
+<form action="/" method="get">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email">
+    </div>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
